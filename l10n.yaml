@@ -1,0 +1,7 @@
+arb-dir: lib/app/l10n/arb
+template-arb-file: app_en.arb
+output-dir: lib/app/l10n/gen
+output-class: AppLocalizations
+output-localization-file: app_localizations.dart
+synthetic-package: false # set false if you want to import the delegate in another package or app
+nullable-getter: false

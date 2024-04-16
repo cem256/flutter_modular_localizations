@@ -1,0 +1,13 @@
+include: package:very_good_analysis/analysis_options.5.1.0.yaml
+
+analyzer:
+  exclude:
+    - lib/l10n/gen/
+
+linter:
+  rules:
+    file_names: false
+    sort_pub_dependencies: false
+    public_member_api_docs: false
+    lines_longer_than_80_chars: false
+    unnecessary_library_directive: false

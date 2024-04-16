@@ -1,0 +1,40 @@
+name: flutter_modular_localizations
+description: "A new Flutter project."
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Modules
+  module_a:
+    path: ./modules/module_a
+  module_b:
+    path: ./modules/module_b
+
+  # Localization
+  flutter_localizations:
+    sdk: flutter
+
+  # State management
+  flutter_bloc: ^8.1.5
+
+  # Utility
+  equatable: ^2.0.5
+
+  # Icons
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  # Linter
+  very_good_analysis: ^5.1.0
+
+flutter:
+  uses-material-design: true
