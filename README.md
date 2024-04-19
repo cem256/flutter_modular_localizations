@@ -1,5 +1,5 @@
 # Flutter Modular Localizations
-Demonstrates the implementation of independent localizations for each module in Flutter.
+Demonstrates the implementation of independent localizations for each module in Flutter. For a detailed guide, check out [Medium article](https://medium.com/@cem256/implementing-modular-localizations-in-flutter-1ec1be409ac9).
 
 ## Why Use Modular Localization?
 When dealing with a codebase consisting of multiple modules (packages), it is common to have a single, large localization file that is used by both the modules and the main project. However, this approach increases the modules' dependency on the main project and reduces their reusability. For example, extracting a module to use in another project requires also transferring parts of the localization file.  A more effective strategy is to develop individual localization classes for each module, along with a shared localization class for commonly used terms in the app.
